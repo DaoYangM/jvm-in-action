@@ -7,6 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="reference" />
+        <module name="out-of-memory" />
+        <module name="stack-overflow" />
+        <module name="finalize-escape-gc" />
       </profile>
     </annotationProcessing>
   </component>

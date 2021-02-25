@@ -11,6 +11,9 @@
 
     <modules>
         <module>reference</module>
+        <module>out-of-memory</module>
+        <module>stack-overflow</module>
+        <module>finalize-escape-gc</module>
     </modules>
 
     <properties>
@@ -25,6 +28,11 @@
             <artifactId>junit-jupiter-api</artifactId>
             <version>5.4.2</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.16</version>
         </dependency>
     </dependencies>
 
